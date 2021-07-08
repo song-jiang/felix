@@ -48,6 +48,8 @@ require (
 
 replace (
 	github.com/Microsoft/hcsshim => github.com/projectcalico/hcsshim v0.8.9-calico
+	github.com/projectcalico/libcalico-go => github.com/song-jiang/libcalico-go v1.6.1-0.20210708134917-57d184e33cef
+	github.com/projectcalico/typha => github.com/song-jiang/typha v0.4.1-0.20210708141241-70e1a375b12a
 	github.com/sirupsen/logrus => github.com/projectcalico/logrus v0.0.0-20180701205716-fc9bbf2f5799
 
 	// Need replacements for all the k8s subsidiary projects that are pulled in indirectly because
